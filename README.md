@@ -6,17 +6,17 @@ This repository contains a Python script for predicting the weekly Return on Inv
 
 ### Key Features:
 
-Ensemble Approach: Combines the strengths of LSTM for capturing non-linear patterns and ARIMA for modeling time series trends, potentially leading to more accurate predictions.
+#### Ensemble Approach:
+Combines the strengths of LSTM for capturing non-linear patterns and ARIMA for modeling time series trends, potentially leading to more accurate predictions.
 
-Automated ARIMA Parameter Optimization: Employs pmdarima's auto_arima function to automatically determine the optimal parameters for the ARIMA model, simplifying the modeling process.
+#### Automated ARIMA Parameter Optimization: 
+Employs pmdarima's auto_arima function to automatically determine the optimal parameters for the ARIMA model, simplifying the modeling process.
 
-Data Scaling: Uses MinMaxScaler to scale the input data, improving the performance and stability of the LSTM model.
+#### Comprehensive Evaluation Metrics: 
+Calculates the Mean Absolute Error (MAE) for each individual model and the ensemble on both validation and test sets, providing insights into prediction accuracy.
 
-Clear Data Splitting: Divides the data into distinct training, validation, and testing sets to ensure robust model evaluation and prevent overfitting.
-
-Comprehensive Evaluation Metrics: Calculates the Mean Absolute Error (MAE) for each individual model and the ensemble on both validation and test sets, providing insights into prediction accuracy.
-
-Future Forecasting: Demonstrates how to forecast the ROI for a specific future date.
+#### Future Forecasting: 
+Demonstrates how to forecast the ROI for a specific future date.
 
 ### Requirements:
 Python 3.7+
